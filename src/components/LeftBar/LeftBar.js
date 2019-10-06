@@ -11,9 +11,9 @@ const LeftBar = () =>{
           </div>
           <p className={'tytle'}>Info</p>
           <p>Phone</p>
-          <a href="tel:+380501596204">+38050159620</a>
+          <a rel="noopener" href="tel:+380501596204">+38050159620</a>
           <p>Email</p>
-          <a href="mailto:nikolay.pylypchatin@gmail.com">nikolay.pylypchatin@gmail.com</a>
+          <a rel="noopener" href="mailto:nikolay.pylypchatin@gmail.com">nikolay.pylypchatin@gmail.com</a>
           <p className={'tytle'}>Skills</p>
           <ul>
               <li>JavaScript ES5, 6, 7 & jQuery</li>
