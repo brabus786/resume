@@ -11,7 +11,7 @@ const LeftBar = () => {
                 <picture>
                     <source type="image/webp" srcSet={logoW}/>
                     <source type="image/jpeg" srcSet={logo}/>
-                    <img src={logo}/>
+                    <img alt="img" src={logo}/>
                 </picture>
             </div>
             <p className={'tytle'}>Info</p>
