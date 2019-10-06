@@ -11,7 +11,7 @@ const RigthBar = () => {
                 e-commerce projects based on CMS Opencart which have traffic more than 300 000 visitors per month each.
             </p>
             <p>
-                Technology stack: JavaScript (ES5, 6, 7), Ajax, jQuery, HTML5 & CSS3 (Flexbox), SASS/SCSS/LESS, Gulp,
+                Technology stack: JavaScript (ES5, 6, 7), React, Ajax, jQuery, HTML5 & CSS3 (Flexbox), SASS/SCSS/LESS, Gulp,
                 Bootstrap 4, PHP, SQL(MySql) Git.
             </p>
             <p>
