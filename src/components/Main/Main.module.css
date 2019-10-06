@@ -1,0 +1,15 @@
+.wrapImg{
+    width: 100%;
+}
+.wrapImg img{
+    width: 100%;
+}
+.properties{
+    display: flex;
+    margin-bottom: 30px;
+}
+@media (max-width: 560px){
+  .properties{
+      flex-wrap: wrap;
+  }
+}

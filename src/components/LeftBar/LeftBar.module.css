@@ -1,0 +1,35 @@
+.wrapImg{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.wrapImg img{
+    width: 100%;
+    box-shadow: 15px 15px 15px -6px rgba(0,0,0,0.56);
+}
+.parent p{
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.parent a{
+    margin-bottom: 15px;
+    font-size: 18px;
+    display: block;
+}
+.parent ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #5D5D5D;
+}
+
+@media (max-width: 991px) {
+    .parent a{
+        font-size: 14px;
+    }
+}
+@media (max-width: 560px){
+    .parent a{
+        font-size: 18px;
+    }
+}
+
+
