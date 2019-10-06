@@ -147,7 +147,6 @@ const Experience = () => {
                         <source type="image/jpeg" srcSet={test15}/>
                         <img src={test15} alt="img" />
                     </picture>
-                    {/*ppp*/}
                 </a>
             </div>
         </div>
