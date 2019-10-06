@@ -20,7 +20,7 @@ const LeftBar = () => {
             <p>Telegram</p>
             <a rel="noopener" href="https://t.me/Nikolay_Pilipchatin">@Nikolay_Pilipchatin</a>
             <p>VIBER</p>
-            <a title="Viber" href="viber://chat?number=+380501596204">+380501596204</a>
+            <a title="Viber" href="viber://add?number=%2B380501596204">+380501596204</a>
             <p>Email</p>
             <a rel="noopener" href="mailto:nikolay.pylypchatin@gmail.com">nikolay.pylypchatin@gmail.com</a>
             <p className={'tytle'}>Skills</p>
