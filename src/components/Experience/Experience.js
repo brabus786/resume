@@ -113,11 +113,11 @@ const Experience = () => {
             </div>
             <p className={'tytle'}>Freelance</p>
             <div className={classes.blockLinck}>
-                <a rel="noopener" target="_blank" href="https://hot-floor.pp.ua/">
+                <a rel="noopener" target="_blank" href="http://dymohody.proizvoditel.co.ua/">
                     <picture>
-                        <source type="image/webp" srcSet={test11W}/>
-                        <source type="image/jpeg" srcSet={test11}/>
-                        <img src={test11} alt="img" />
+                        <source type="image/webp" srcSet={test12W}/>
+                        <source type="image/jpeg" srcSet={test12}/>
+                        <img src={test12} alt="img" />
                     </picture>
                 </a>
                 <a rel="noopener" target="_blank" href="http://zonty.proizvoditel.co.ua/">
@@ -127,11 +127,11 @@ const Experience = () => {
                         <img src={test13} alt="img" />
                     </picture>
                 </a>
-                <a rel="noopener" target="_blank" href="http://dymohody.proizvoditel.co.ua/">
+                <a rel="noopener" target="_blank" href="https://hot-floor.pp.ua/">
                     <picture>
-                        <source type="image/webp" srcSet={test12W}/>
-                        <source type="image/jpeg" srcSet={test12}/>
-                        <img src={test12} alt="img" />
+                        <source type="image/webp" srcSet={test11W}/>
+                        <source type="image/jpeg" srcSet={test11}/>
+                        <img src={test11} alt="img" />
                     </picture>
                 </a>
                 <a rel="noopener" target="_blank" href="https://plodovkaopt.pp.ua">

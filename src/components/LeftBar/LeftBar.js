@@ -22,6 +22,7 @@ const LeftBar = () => {
             <p className={'tytle'}>Skills</p>
             <ul>
                 <li>JavaScript ES5, 6, 7 & jQuery</li>
+                <li>React</li>
                 <li>HTML5 & CSS3</li>
                 <li>SASS/SCSS/LESS</li>
                 <li>Gulp</li>
