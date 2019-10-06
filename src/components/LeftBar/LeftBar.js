@@ -7,7 +7,7 @@ const LeftBar = () =>{
   return(
       <div className={'leftBar' + ' ' + classes.parent}>
           <div className={classes.wrapImg}>
-              <img src={logo}/>
+              <img alt="img" src={logo}/>
           </div>
           <p className={'tytle'}>Info</p>
           <p>Phone</p>
