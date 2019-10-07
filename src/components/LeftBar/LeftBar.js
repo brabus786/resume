@@ -19,10 +19,6 @@ const LeftBar = () => {
             <a rel="noopener" href="tel:+380501596204">+380501596204</a>
             <p>Telegram</p>
             <a rel="noopener" href="https://t.me/Nikolay_Pilipchatin">@Nikolay_Pilipchatin</a>
-
-            <p>VIBER</p>
-            <a title="Viber" href="viber://pa?chatURI=frontend_developer">chatURI</a>
-
             <p>Email</p>
             <a rel="noopener" href="mailto:nikolay.pylypchatin@gmail.com">nikolay.pylypchatin@gmail.com</a>
             <p className={'tytle'}>Skills</p>
