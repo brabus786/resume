@@ -21,7 +21,7 @@ const LeftBar = () => {
             <a rel="noopener" href="https://t.me/Nikolay_Pilipchatin">@Nikolay_Pilipchatin</a>
 
             <p>VIBER</p>
-            <a title="Viber" href="viber://pa?chatURI=kolybot">chatURI</a>
+            <a title="Viber" href="viber://pa?chatURI=frontend-developer">chatURI</a>
 
             <p>Email</p>
             <a rel="noopener" href="mailto:nikolay.pylypchatin@gmail.com">nikolay.pylypchatin@gmail.com</a>
