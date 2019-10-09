@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.7c29f8ba.chunk.css",
-    "main.js": "./static/js/main.9bbc0593.chunk.js",
-    "main.js.map": "./static/js/main.9bbc0593.chunk.js.map",
+    "main.css": "./static/css/main.8d3f054d.chunk.css",
+    "main.js": "./static/js/main.98b1184e.chunk.js",
+    "main.js.map": "./static/js/main.98b1184e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ccbb8341.js",
     "runtime-main.js.map": "./static/js/runtime-main.ccbb8341.js.map",
-    "static/js/2.7a2532aa.chunk.js": "./static/js/2.7a2532aa.chunk.js",
-    "static/js/2.7a2532aa.chunk.js.map": "./static/js/2.7a2532aa.chunk.js.map",
+    "static/js/2.7a184e78.chunk.js": "./static/js/2.7a184e78.chunk.js",
+    "static/js/2.7a184e78.chunk.js.map": "./static/js/2.7a184e78.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c9bd13a592f4bc9d3d2c50c35e5ed132.js": "./precache-manifest.c9bd13a592f4bc9d3d2c50c35e5ed132.js",
+    "precache-manifest.fba55254174af24a2ab8d9f99a469acb.js": "./precache-manifest.fba55254174af24a2ab8d9f99a469acb.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.7c29f8ba.chunk.css.map": "./static/css/main.7c29f8ba.chunk.css.map",
+    "static/css/main.8d3f054d.chunk.css.map": "./static/css/main.8d3f054d.chunk.css.map",
     "static/media/Photo-I-am.png": "./static/media/Photo-I-am.078df9b9.png",
     "static/media/Photo-I-am.webp": "./static/media/Photo-I-am.cf3b0c57.webp",
     "static/media/Screenshot_1.png": "./static/media/Screenshot_1.413d12a1.png",
@@ -27,6 +27,8 @@
     "static/media/Screenshot_14.png": "./static/media/Screenshot_14.65ed0e7c.png",
     "static/media/Screenshot_15.png": "./static/media/Screenshot_15.51a4ff2f.png",
     "static/media/Screenshot_15.webp": "./static/media/Screenshot_15.d3adbdad.webp",
+    "static/media/Screenshot_16.webp": "./static/media/Screenshot_16.0fc6d430.webp",
+    "static/media/Screenshot_16.png": "./static/media/Screenshot_16.607a6509.png",
     "static/media/Screenshot_2.png": "./static/media/Screenshot_2.27afdf01.png",
     "static/media/Screenshot_2.webp": "./static/media/Screenshot_2.bfa99607.webp",
     "static/media/Screenshot_3.webp": "./static/media/Screenshot_3.24e0fef2.webp",
@@ -46,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ccbb8341.js",
-    "static/js/2.7a2532aa.chunk.js",
-    "static/css/main.7c29f8ba.chunk.css",
-    "static/js/main.9bbc0593.chunk.js"
+    "static/js/2.7a184e78.chunk.js",
+    "static/css/main.8d3f054d.chunk.css",
+    "static/js/main.98b1184e.chunk.js"
   ]
 }
