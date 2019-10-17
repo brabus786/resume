@@ -1,3 +1,8 @@
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header{
     padding: 30px 0 30px 0;
 }
@@ -7,7 +12,25 @@
 .tytle{
     margin-bottom: 15px;
 }
-
+.leng{
+    display: flex;
+    align-items: center;
+}
+.palka{
+    margin: 0 10px;
+}
+.en, .ru{
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.active{
+    color: green;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
 @media (max-width: 767px){
     .header{
         padding: 30px 15px 30px 15px;

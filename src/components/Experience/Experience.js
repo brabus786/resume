@@ -34,10 +34,10 @@ import test16 from './../../assets/img/Screenshot_16.png';
 import test16W from './../../assets/img/Screenshot_16.webp';
 
 
-const Experience = () => {
+const Experience = (props) => {
     return (
         <div className={classes.block}>
-            <p className={'tytle'}>Test work:</p>
+            <p className={'tytle'}>{props.leng.leng.leng.en?'Test work:':'Тестовые задания'}</p>
             <div className={classes.blockLinck}>
                 <a rel="noopener" target="_blank" href="https://brabus786.github.io/codebright/build/">
                     <picture>
@@ -61,7 +61,7 @@ const Experience = () => {
                     </picture>
                 </a>
             </div>
-            <p className={'tytle'}>Examples of my work at Tesla Weld / Tatra garden:</p>
+            <p className={'tytle'}>{props.leng.leng.leng.en?'Examples of my work at ':'Примеры моей работы в'} Tesla Weld / Tatra garden:</p>
             <div className={classes.blockLinck}>
                 <a rel="noopener" target="_blank" href="https://tatragarden.ua/">
                     <picture>
@@ -120,7 +120,7 @@ const Experience = () => {
                     </picture>
                 </a>
             </div>
-            <p className={'tytle'}>Freelance</p>
+            <p className={'tytle'}>{props.leng.leng.leng.en?'Freelance':'Внештатно'}</p>
             <div className={classes.blockLinck}>
                 <a rel="noopener" target="_blank" href="http://dymohody.proizvoditel.co.ua/">
                     <picture>

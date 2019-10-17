@@ -4,7 +4,8 @@ import logoW from "../../assets/img/Photo-I-am.webp";
 import classes from './LeftBar.module.css'
 
 
-const LeftBar = () => {
+const LeftBar = (props) => {
+    console.log(props);
     return (
         <div className={'leftBar' + ' ' + classes.parent}>
             <div className={classes.wrapImg}>
@@ -14,14 +15,14 @@ const LeftBar = () => {
                     <img alt="img" src={logo}/>
                 </picture>
             </div>
-            <p className={'tytle'}>Info</p>
+            <p className={'tytle'}>{props.leng.leng.en?'info':'контактная информация'}</p>
             <p>Phone</p>
             <a rel="noopener" href="tel:+380501596204">+380501596204</a>
             <p>Telegram</p>
             <a rel="noopener" href="https://t.me/Nikolay_Pilipchatin">@Nikolay_Pilipchatin</a>
             <p>Email</p>
             <a rel="noopener" href="mailto:nikolay.pylypchatin@gmail.com">nikolay.pylypchatin@gmail.com</a>
-            <p className={'tytle'}>Skills</p>
+            <p className={'tytle'}>{props.leng.leng.en?'Skills':'Навыки'}</p>
             <ul>
                 <li>JavaScript ES5, 6, 7 & jQuery</li>
                 <li>React</li>
@@ -38,8 +39,8 @@ const LeftBar = () => {
                 <li>Understanding of the BEM</li>
                 <li>methodology</li>
             </ul>
-            <p className={'tytle'}>Languages</p>
-            <p style={{color: '#5D5D5D'}}>Basic English</p>
+            <p className={'tytle'}>{props.leng.leng.en?'Languages':'Знание языков'}</p>
+            <p style={{color: '#5D5D5D'}}>{props.leng.leng.en?'Basic':'Начальный'} English</p>
 
         </div>
 )

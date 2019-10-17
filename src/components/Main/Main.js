@@ -3,11 +3,11 @@ import classes from './Main.module.css';
 import LeftBar from './../LeftBar/LeftBar';
 import RigthBar from "./../RigthBar/RigthBar";
 
-const main = () => {
+const main = (props) => {
     return (
         <div className={'myContainer' + ' ' + classes.properties}>
-            <LeftBar/>
-            <RigthBar/>
+            <LeftBar leng = {props} />
+            <RigthBar leng = {props} />
         </div>
     )
 };
