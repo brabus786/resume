@@ -5,24 +5,24 @@ import classes from './LeftBar.module.css'
 
 
 const LeftBar = (props) => {
-    console.log(props);
+
     return (
         <div className={'leftBar' + ' ' + classes.parent}>
             <div className={classes.wrapImg}>
                 <picture>
-                    <source type="image/webp" srcSet={logoW}/>
-                    <source type="image/jpeg" srcSet={logo}/>
-                    <img alt="img" src={logo}/>
+                    <source type="image/webp" srcSet={logoW} />
+                    <source type="image/jpeg" srcSet={logo} />
+                    <img alt="img" src={logo} />
                 </picture>
             </div>
-            <p className={'tytle'}>{props.leng.leng.en?'info':'контактная информация'}</p>
+            <p className={'tytle'}>{props.leng.leng.en ? 'Info' : 'Контактная информация'}</p>
             <p>Phone</p>
             <a rel="noopener" href="tel:+380501596204">+380501596204</a>
             <p>Telegram</p>
             <a rel="noopener" href="https://t.me/Nikolay_Pilipchatin">@Nikolay_Pilipchatin</a>
             <p>Email</p>
             <a rel="noopener" href="mailto:nikolay.pylypchatin@gmail.com">nikolay.pylypchatin@gmail.com</a>
-            <p className={'tytle'}>{props.leng.leng.en?'Skills':'Навыки'}</p>
+            <p className={'tytle'}>{props.leng.leng.en ? 'Skills' : 'Навыки'}</p>
             <ul>
                 <li>JavaScript ES5, 6, 7 & jQuery</li>
                 <li>React</li>
@@ -39,11 +39,11 @@ const LeftBar = (props) => {
                 <li>Understanding of the BEM</li>
                 <li>methodology</li>
             </ul>
-            <p className={'tytle'}>{props.leng.leng.en?'Languages':'Знание языков'}</p>
-            <p style={{color: '#5D5D5D'}}>{props.leng.leng.en?'Basic':'Начальный'} English</p>
+            <p className={'tytle'}>{props.leng.leng.en ? 'Languages' : 'Знание языков'}</p>
+            <p style={{ color: '#5D5D5D' }}>{props.leng.leng.en ? 'Basic' : 'Начальный'} English</p>
 
         </div>
-)
+    )
 };
 
 
