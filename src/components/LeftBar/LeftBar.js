@@ -25,7 +25,9 @@ const LeftBar = (props) => {
             <p className={'tytle'}>{props.leng.leng.en ? 'Skills' : 'Навыки'}</p>
             <ul>
                 <li>JavaScript ES5, 6, 7 & jQuery</li>
-                <li>React</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
                 <li>HTML5 & CSS3</li>
                 <li>SASS/SCSS/LESS</li>
                 <li>Gulp</li>
