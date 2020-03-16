@@ -32,12 +32,26 @@ import test15 from './../../assets/img/Screenshot_15.png';
 import test15W from './../../assets/img/Screenshot_15.webp';
 import test16 from './../../assets/img/Screenshot_16.png';
 import test16W from './../../assets/img/Screenshot_16.webp';
+import nedvig from './../../assets/img/Screenshot_4_optimized.png';
+import nedvigW from './../../assets/img/Screenshot_4_optimized.webp';
 
 
 const Experience = (props) => {
     return (
         <div className={classes.block}>
-            <p className={'tytle'}>{props.leng.leng.leng.en ? 'Works to showcase my skills:' : 'Тестовые задания'}</p>
+
+            <p className={'tytle'}>{props.leng.leng.leng.en ? 'My best project' : 'Мой лучший проект'}</p>
+            <div className={classes.blockLinck}>
+                <a rel="noopener" target="_blank" href="https://comestate.agency/">
+                    <picture>
+                        <source type="image/webp" srcSet={nedvigW} />
+                        <source type="image/jpeg" srcSet={nedvig} />
+                        <img src={nedvig} alt="img" />
+                    </picture>
+                </a>
+            </div>
+
+            <p className={'tytle'}>{props.leng.leng.leng.en ? 'Works to showcase my skills:' : 'Работает, чтобы продемонстрировать мои навыки'}</p>
             <div className={classes.blockLinck}>
                 <a rel="noopener" target="_blank" href="https://brabus786.github.io/codebright/build/">
                     <picture>
