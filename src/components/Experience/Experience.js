@@ -40,7 +40,7 @@ const Experience = (props) => {
     return (
         <div className={classes.block}>
 
-            <p className={'tytle'}>{props.leng.leng.leng.en ? 'My best project' : 'Мой лучший проект'}</p>
+            <p className={'tytle'}>{props.leng.leng.leng.en ? 'My new real estate project' : 'Мой новый поект агенства недвижимости'}</p>
             <div className={classes.blockLinck}>
                 <a rel="noopener" target="_blank" href="https://comestate.agency/">
                     <picture>
