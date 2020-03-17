@@ -6,17 +6,17 @@ const LengRU = () => {
         <div>
             <p className={'tytle' + ' ' + classes.RTytle}>Профиль</p>
             <p>
-                Web Developer с опытом работы более 2-х лет, из них более года коммерческой разработки. Работал на
+                Web Developer с опытом работы более 4-х лет, из них более года коммерческой разработки. Работал на
                 2 двух
                 e-commerce проектах на CMS Opencart с посещаемостью более 300000 человек в месяц на каждом.
             </p>
             <p>
-                Стэк технологий: JavaScript (ES5, 6, 7), React, Ajax, jQuery, HTML5 & CSS3 (Flexbox), SASS/SCSS/LESS,
-                Gulp, Bootstrap 4, PHP, SQL(MySql) Git.
+                Стэк технологий: HTML, CSS, SCSS, BEM,  Ajax, Responsive markup, JavaScript, Adobe Photoshop, jQuery, PHP, Git, MySQL, Gulp, React, next.js, express.js, MongoDB, Node.js
+                                               
             </p>
             <p>
                 Имею навыки разработки кроссбраузерной, валидной и адаптивной верстки. Верстка по w3 валидатору.
-                Свободно использую Photoshop при верстке макета. Основы ООП на js и php.
+                Свободно использую Photoshop, Figma при верстке макета. Основы ООП на js и php.
             </p>
             <p>
                 Понимание mobil-first подхода при верстке. Знаком с методологией БЭМ. Понимание DOM модели (поиск,

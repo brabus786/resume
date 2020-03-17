@@ -6,12 +6,11 @@ const LengEN = () => {
         <div>
             <p className={'tytle' + ' ' + classes.RTytle}>Profile</p>
             <p>
-                I am a Web Developer with over 2 years of experience one of which is commercial. I worked on 2
+                I am a Web Developer with over 4 years of experience one of which is commercial. I worked on 2
                 e-commerce projects based on CMS Opencart which have traffic more than 300 000 visitors per month each.
           </p>
             <p>
-                Technology stack I use: JavaScript (ES5, 6, 7), React, Ajax, jQuery, HTML5 & CSS3 (Flexbox), SASS/SCSS/LESS, Gulp,
-                Bootstrap 4, PHP, SQL(MySql) Git.
+                Technology stack I use: HTML, CSS, SCSS, BEM,  Ajax, Responsive markup, JavaScript, Adobe Photoshop, jQuery, PHP, Git, MySQL, Gulp, React, next.js, express.js, MongoDB, Node.js
           </p>
             <p>
                 I have experience in the development of cross-browser, valid and responsive websites and web apps. Mark up using w3
