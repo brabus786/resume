@@ -1,4 +1,7 @@
 import React from 'react';
+
+import BlockLink from '../blockLinck/BlockLink';
+
 import classes from './Experience.module.css';
 import test1 from './../../assets/img/Screenshot_1.png';
 import test1W from './../../assets/img/Screenshot_1.webp';
@@ -34,143 +37,144 @@ import test16 from './../../assets/img/Screenshot_16.png';
 import test16W from './../../assets/img/Screenshot_16.webp';
 import nedvig from './../../assets/img/Screenshot_4_optimized.png';
 import nedvigW from './../../assets/img/Screenshot_4_optimized.webp';
+import test20 from './../../assets/img/Screenshot_20.png';
+import test20W from './../../assets/img/Screenshot_20.webp';
 
 
 const Experience = (props) => {
     return (
         <div className={classes.block}>
 
-            <p className={'tytle'}>{props.leng.leng.leng.en ? 'My new real estate project' : 'Мой новый поект агенства недвижимости'}</p>
+
+            <p className={'tytle'}>{props.leng.leng.leng.en ? 'New projects' : 'Новые проекты'}</p>
+
             <div className={classes.blockLinck}>
-                <a rel="noopener" target="_blank" href="https://comestate.agency/">
-                    <picture>
-                        <source type="image/webp" srcSet={nedvigW} />
-                        <source type="image/jpeg" srcSet={nedvig} />
-                        <img src={nedvig} alt="img" />
-                    </picture>
-                </a>
+                <BlockLink
+                    img={nedvig}
+                    imgW={nedvigW}
+                    href='https://comestate.agency/'
+                    technology={['Next.js', 'React.js', 'Node.js', 'Express', 'MongoDB', 'SCSS', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    img={test20}
+                    imgW={test20W}
+                    href='https://board.brabus786.now.sh/'
+                    technology={['React.js', 'Redax', 'SCSS']}
+                />
             </div>
+
 
             <p className={'tytle'}>{props.leng.leng.leng.en ? 'Works to showcase my skills:' : 'Работает, чтобы продемонстрировать мои навыки'}</p>
             <div className={classes.blockLinck}>
-                <a rel="noopener" target="_blank" href="https://brabus786.github.io/codebright/build/">
-                    <picture>
-                        <source type="image/webp" srcSet={test16W} />
-                        <source type="image/jpeg" srcSet={test16} />
-                        <img src={test16} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://brabus786.github.io/dist/">
-                    <picture>
-                        <source type="image/webp" srcSet={test1W} />
-                        <source type="image/jpeg" srcSet={test1} />
-                        <img src={test1} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://brabus786.github.io/webakula-test/dist/">
-                    <picture>
-                        <source type="image/webp" srcSet={test2W} />
-                        <source type="image/jpeg" srcSet={test2} />
-                        <img src={test2} alt="img" />
-                    </picture>
-                </a>
+
+                <BlockLink
+                    imgW={test16W}
+                    img={test16}
+                    href='https://brabus786.github.io/codebright/build/'
+                    technology={['React.js', 'REST API', 'SCSS', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test1W}
+                    img={test1}
+                    href='https://brabus786.github.io/dist/'
+                    technology={['JavaScript', 'CSS', 'HTML', 'Gulp', ' Lazy Load', 'Critical CSS', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test2W}
+                    img={test2}
+                    href='https://brabus786.github.io/webakula-test/dist/'
+                    technology={['JavaScript', 'CSS', 'HTML', 'Gulp', ' Lazy Load', 'Critical CSS', 'Responsive Layout']}
+                />
+
+
             </div>
             <p className={'tytle'}>{props.leng.leng.leng.en ? 'Examples of my work at ' : 'Примеры моей работы в'} Tesla Weld / Tatra garden:</p>
             <div className={classes.blockLinck}>
-                <a rel="noopener" target="_blank" href="https://tatragarden.ua/">
-                    <picture>
-                        <source type="image/webp" srcSet={test3W} />
-                        <source type="image/jpeg" srcSet={test3} />
-                        <img src={test3} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://tatragarden.ua/evropejskie-kultivatory">
-                    <picture>
-                        <source type="image/webp" srcSet={test4W} />
-                        <source type="image/jpeg" srcSet={test4} />
-                        <img src={test4} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://teslaweld.com/birthday">
-                    <picture>
-                        <source type="image/webp" srcSet={test5W} />
-                        <source type="image/jpeg" srcSet={test5} />
-                        <img src={test5} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://teslaweld.com/mma-230">
-                    <picture>
-                        <source type="image/webp" srcSet={test6W} />
-                        <source type="image/jpeg" srcSet={test6} />
-                        <img src={test6} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://teslaweld.com/oborudovanie-dlya-privarki-shpilek">
-                    <picture>
-                        <source type="image/webp" srcSet={test7W} />
-                        <source type="image/jpeg" srcSet={test7} />
-                        <img src={test7} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="http://blog.prosvarka.com.ua/">
-                    <picture>
-                        <source type="image/webp" srcSet={test8W} />
-                        <source type="image/jpeg" srcSet={test8} />
-                        <img src={test8} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="http://blog-tig-a.prosvarka.com.ua/">
-                    <picture>
-                        <source type="image/webp" srcSet={test9W} />
-                        <source type="image/jpeg" srcSet={test9} />
-                        <img src={test9} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://teslaweld.com/mma">
-                    <picture>
-                        <source type="image/webp" srcSet={test10W} />
-                        <source type="image/jpeg" srcSet={test10} />
-                        <img src={test10} alt="img" />
-                    </picture>
-                </a>
+
+                <BlockLink
+                    imgW={test3W}
+                    img={test3}
+                    href='https://tatragarden.ua/'
+                    technology={['OpenCart', 'PHP', 'JavaScript', 'jQuery', 'CSS', 'HTML', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test4W}
+                    img={test4}
+                    href='https://tatragarden.ua/evropejskie-kultivatory'
+                    technology={['OpenCart', 'PHP', 'JavaScript', 'jQuery', 'CSS', 'HTML', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test5W}
+                    img={test5}
+                    href='https://teslaweld.com/birthday'
+                    technology={['OpenCart', 'PHP', 'JavaScript', 'jQuery', 'CSS', 'HTML', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test6W}
+                    img={test6}
+                    href='https://teslaweld.com/mma-230'
+                    technology={['OpenCart', 'PHP', 'JavaScript', 'jQuery', 'CSS', 'HTML', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test7W}
+                    img={test7}
+                    href='https://teslaweld.com/oborudovanie-dlya-privarki-shpilek'
+                    technology={['OpenCart', 'PHP', 'JavaScript', 'jQuery', 'CSS', 'HTML', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test8W}
+                    img={test8}
+                    href='http://blog.prosvarka.com.ua/'
+                    technology={['OpenCart', 'PHP', 'JavaScript', 'jQuery', 'CSS', 'HTML', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test9W}
+                    img={test9}
+                    href='http://blog-tig-a.prosvarka.com.ua/'
+                    technology={['OpenCart', 'PHP', 'JavaScript', 'jQuery', 'CSS', 'HTML', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test10W}
+                    img={test10}
+                    href='https://teslaweld.com/mma'
+                    technology={['OpenCart', 'PHP', 'JavaScript', 'jQuery', 'CSS', 'HTML', 'Responsive Layout']}
+                />
+
             </div>
             <p className={'tytle'}>{props.leng.leng.leng.en ? 'Freelance' : 'Внештатно'}</p>
             <div className={classes.blockLinck}>
-                <a rel="noopener" target="_blank" href="http://dymohody.proizvoditel.co.ua/">
-                    <picture>
-                        <source type="image/webp" srcSet={test12W} />
-                        <source type="image/jpeg" srcSet={test12} />
-                        <img src={test12} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="http://zonty.proizvoditel.co.ua/">
-                    <picture>
-                        <source type="image/webp" srcSet={test13W} />
-                        <source type="image/jpeg" srcSet={test13} />
-                        <img src={test13} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://hot-floor.pp.ua/">
-                    <picture>
-                        <source type="image/webp" srcSet={test11W} />
-                        <source type="image/jpeg" srcSet={test11} />
-                        <img src={test11} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="https://plodovkaopt.pp.ua">
-                    <picture>
-                        <source type="image/webp" srcSet={test14W} />
-                        <source type="image/jpeg" srcSet={test14} />
-                        <img src={test14} alt="img" />
-                    </picture>
-                </a>
-                <a rel="noopener" target="_blank" href="http://medok.ludmila-goncharova.com/">
-                    <picture>
-                        <source type="image/webp" srcSet={test15W} />
-                        <source type="image/jpeg" srcSet={test15} />
-                        <img src={test15} alt="img" />
-                    </picture>
-                </a>
+
+                <BlockLink
+                    imgW={test12W}
+                    img={test12}
+                    href='http://dymohody.proizvoditel.co.ua/'
+                    technology={['JavaScript', 'jQuery', 'CSS', 'HTML', 'Gulp', ' Lazy Load', 'Critical CSS', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test13W}
+                    img={test13}
+                    href='http://zonty.proizvoditel.co.ua/'
+                    technology={['JavaScript', 'jQuery', 'CSS', 'HTML', 'Gulp', ' Lazy Load', 'Critical CSS', 'Responsive Layout']}
+                />
+
+                <BlockLink
+                    imgW={test15W}
+                    img={test15}
+                    href='http://medok.ludmila-goncharova.com/'
+                    technology={['JavaScript', 'jQuery', 'CSS', 'HTML', 'Gulp', ' Lazy Load', 'Critical CSS', 'Responsive Layout']}
+                />
+
             </div>
         </div>
     )
