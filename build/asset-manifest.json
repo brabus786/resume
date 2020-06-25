@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.2e80d06f.chunk.css",
-    "main.js": "./static/js/main.01506d8e.chunk.js",
-    "main.js.map": "./static/js/main.01506d8e.chunk.js.map",
+    "main.css": "./static/css/main.4b60bef7.chunk.css",
+    "main.js": "./static/js/main.c79b9730.chunk.js",
+    "main.js.map": "./static/js/main.c79b9730.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ccbb8341.js",
     "runtime-main.js.map": "./static/js/runtime-main.ccbb8341.js.map",
-    "static/js/2.1a339e22.chunk.js": "./static/js/2.1a339e22.chunk.js",
-    "static/js/2.1a339e22.chunk.js.map": "./static/js/2.1a339e22.chunk.js.map",
+    "static/js/2.abf58a65.chunk.js": "./static/js/2.abf58a65.chunk.js",
+    "static/js/2.abf58a65.chunk.js.map": "./static/js/2.abf58a65.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.6d3bf10fdaf3cd51ea88879c336ec22f.js": "./precache-manifest.6d3bf10fdaf3cd51ea88879c336ec22f.js",
+    "precache-manifest.1fff9ac5e98dde51c52ed156dea054ef.js": "./precache-manifest.1fff9ac5e98dde51c52ed156dea054ef.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.2e80d06f.chunk.css.map": "./static/css/main.2e80d06f.chunk.css.map",
+    "static/css/main.4b60bef7.chunk.css.map": "./static/css/main.4b60bef7.chunk.css.map",
     "static/media/Photo-I-am.webp": "./static/media/Photo-I-am.233025ed.webp",
     "static/media/Photo-I-am.png": "./static/media/Photo-I-am.e53bc427.png",
     "static/media/Screenshot_1.png": "./static/media/Screenshot_1.413d12a1.png",
@@ -48,12 +48,24 @@
     "static/media/Screenshot_8.webp": "./static/media/Screenshot_8.512befca.webp",
     "static/media/Screenshot_8.png": "./static/media/Screenshot_8.bead7387.png",
     "static/media/Screenshot_9.webp": "./static/media/Screenshot_9.7e4e8fbd.webp",
-    "static/media/Screenshot_9.png": "./static/media/Screenshot_9.9046773d.png"
+    "static/media/Screenshot_9.png": "./static/media/Screenshot_9.9046773d.png",
+    "static/media/bandicam 2020-06-25 11-27-35-183.mp4": "./static/media/bandicam 2020-06-25 11-27-35-183.8f1ff930.mp4",
+    "static/media/bandicam 2020-06-25 11-32-47-848.mp4": "./static/media/bandicam 2020-06-25 11-32-47-848.92dab5d1.mp4",
+    "static/media/bandicam 2020-06-25 11-36-48-151.mp4": "./static/media/bandicam 2020-06-25 11-36-48-151.cc5224d0.mp4",
+    "static/media/bandicam 2020-06-25 11-37-45-943.mp4": "./static/media/bandicam 2020-06-25 11-37-45-943.c6797672.mp4",
+    "static/media/bandicam 2020-06-25 11-38-45-828.mp4": "./static/media/bandicam 2020-06-25 11-38-45-828.daeec3c6.mp4",
+    "static/media/bandicam 2020-06-25 11-42-40-986.mp4": "./static/media/bandicam 2020-06-25 11-42-40-986.8fd29f86.mp4",
+    "static/media/bandicam 2020-06-25 11-47-05-622.mp4": "./static/media/bandicam 2020-06-25 11-47-05-622.83b3b200.mp4",
+    "static/media/bandicam 2020-06-25 11-49-26-502.mp4": "./static/media/bandicam 2020-06-25 11-49-26-502.42ed9cca.mp4",
+    "static/media/bandicam 2020-06-25 11-51-16-081.mp4": "./static/media/bandicam 2020-06-25 11-51-16-081.4ab36d2b.mp4",
+    "static/media/bandicam 2020-06-25 11-59-29-213.mp4": "./static/media/bandicam 2020-06-25 11-59-29-213.5d0967cd.mp4",
+    "static/media/tattz.webp": "./static/media/tattz.1049427a.webp",
+    "static/media/tattz.png": "./static/media/tattz.8e48729c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ccbb8341.js",
-    "static/js/2.1a339e22.chunk.js",
-    "static/css/main.2e80d06f.chunk.css",
-    "static/js/main.01506d8e.chunk.js"
+    "static/js/2.abf58a65.chunk.js",
+    "static/css/main.4b60bef7.chunk.css",
+    "static/js/main.c79b9730.chunk.js"
   ]
 }
