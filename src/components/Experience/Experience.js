@@ -39,11 +39,25 @@ import nedvig from './../../assets/img/Screenshot_4_optimized.png';
 import nedvigW from './../../assets/img/Screenshot_4_optimized.webp';
 import test20 from './../../assets/img/Screenshot_20.png';
 import test20W from './../../assets/img/Screenshot_20.webp';
+import tattz from './../../assets/img/tattz.png';
+import tattzW from './../../assets/img/tattz.webp';
 
 
 const Experience = (props) => {
     return (
         <div className={classes.block}>
+
+
+            <p className={'tytle'}>{props.leng.leng.leng.en ? 'Project in development' : 'Проект в разработке'}</p>
+
+            <div className={classes.blockLinck}>
+                <BlockLink
+                    img={tattz}
+                    imgW={tattzW}
+                    href='http://front.tattz.ru/'
+                    technology={['Next.js','React.js','Redux','REST API','integration API','Node.js','Express','SCSS','Grid ','Flex','Responsive Layout','Mobile first']}
+                />
+            </div>
 
 
             <p className={'tytle'}>{props.leng.leng.leng.en ? 'New projects' : 'Новые проекты'}</p>
