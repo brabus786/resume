@@ -26,6 +26,7 @@ const LeftBar = (props) => {
             <ul>
                 <li>JavaScript ES5, 6, 7 & jQuery</li>
                 <li>React.js</li>
+                <li>Redux</li>
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>HTML5 & CSS3</li>

@@ -41,6 +41,16 @@ import test20 from './../../assets/img/Screenshot_20.png';
 import test20W from './../../assets/img/Screenshot_20.webp';
 import tattz from './../../assets/img/tattz.png';
 import tattzW from './../../assets/img/tattz.webp';
+import videoTattz1 from './../../assets/videoTattz/bandicam 2020-06-25 11-27-35-183.mp4';
+import videoTattz2 from './../../assets/videoTattz/bandicam 2020-06-25 11-32-47-848.mp4';
+import videoTattz3 from './../../assets/videoTattz/bandicam 2020-06-25 11-36-48-151.mp4';
+import videoTattz4 from './../../assets/videoTattz/bandicam 2020-06-25 11-37-45-943.mp4';
+import videoTattz5 from './../../assets/videoTattz/bandicam 2020-06-25 11-38-45-828.mp4';
+import videoTattz6 from './../../assets/videoTattz/bandicam 2020-06-25 11-42-40-986.mp4';
+import videoTattz7 from './../../assets/videoTattz/bandicam 2020-06-25 11-47-05-622.mp4';
+import videoTattz8 from './../../assets/videoTattz/bandicam 2020-06-25 11-49-26-502.mp4';
+import videoTattz9 from './../../assets/videoTattz/bandicam 2020-06-25 11-51-16-081.mp4';
+import videoTattz10 from './../../assets/videoTattz/bandicam 2020-06-25 11-59-29-213.mp4';
 
 
 const Experience = (props) => {
@@ -55,10 +65,25 @@ const Experience = (props) => {
                     img={tattz}
                     imgW={tattzW}
                     href='http://front.tattz.ru/'
-                    technology={['Next.js','React.js','Redux','REST API','integration API','Node.js','Express','SCSS','Grid ','Flex','Responsive Layout','Mobile first']}
+                    technology={['Next.js', 'React.js', 'Redux', 'REST API', 'integration API', 'Node.js', 'Express', 'SCSS', 'Grid ', 'Flex', 'Responsive Layout', 'Mobile first']}
                 />
+
             </div>
 
+            <p className={'tytle'}>{props.leng.leng.leng.en ? 'Video review of the project in development' : 'Видеообзор проекта в разработке'}</p>
+
+            <div className={classes.blockLinck}>
+                <video controls  src={videoTattz1}></video>
+                <video controls  src={videoTattz2}></video>
+                <video controls  src={videoTattz3}></video>
+                <video controls  src={videoTattz4}></video>
+                <video controls  src={videoTattz5}></video>
+                <video controls  src={videoTattz6}></video>
+                <video controls  src={videoTattz7}></video>
+                <video controls  src={videoTattz8}></video>
+                <video controls  src={videoTattz9}></video>
+                <video controls  src={videoTattz10}></video>
+            </div>
 
             <p className={'tytle'}>{props.leng.leng.leng.en ? 'New projects' : 'Новые проекты'}</p>
 

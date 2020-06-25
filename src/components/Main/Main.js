@@ -4,10 +4,15 @@ import LeftBar from './../LeftBar/LeftBar';
 import RigthBar from "./../RigthBar/RigthBar";
 
 const main = (props) => {
+
+
+    // const date = new Date();
+    // console.log(`${date.getDay()} ${date.getMonth()} ${date.getFullYear()} `);
+
     return (
         <div className={'myContainer' + ' ' + classes.properties}>
-            <LeftBar leng = {props} />
-            <RigthBar leng = {props} />
+            <LeftBar leng={props} />
+            <RigthBar leng={props} />
         </div>
     )
 };
