@@ -25,7 +25,8 @@ const LeftBar = (props) => {
             <p className={'tytle'}>{props.leng.leng.en ? 'Skills' : 'Навыки'}</p>
             <ul>
                 <li>JavaScript ES5, 6, 7 & jQuery</li>
-                <li>React.js</li>
+                <li>React</li>
+                <li>Next.js</li>
                 <li>Redux</li>
                 <li>Node.js</li>
                 <li>Express.js</li>
@@ -41,6 +42,13 @@ const LeftBar = (props) => {
                 <li>valid markup</li>
                 <li>Understanding of the BEM</li>
                 <li>methodology</li>
+            </ul>
+            <p className={'tytle'}>{props.leng.leng.en ? 'Project Management Tools' : 'Инструменты для управления проектами'}</p>
+            <ul>
+                <li>Jira</li>
+                <li>Trello</li>
+                <li>Slack</li>
+                <li>Time Doctor</li>
             </ul>
             <p className={'tytle'}>{props.leng.leng.en ? 'Languages' : 'Знание языков'}</p>
             <p style={{ color: '#5D5D5D' }}>{props.leng.leng.en ? 'Basic' : 'Начальный'} English</p>
