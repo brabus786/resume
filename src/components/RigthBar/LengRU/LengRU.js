@@ -14,7 +14,7 @@ const LengRU = () => {
                 Есть опыт удаленной работы.
             </p>
             <p>
-                Стэк технологий: HTML, CSS, SCSS, BEM,  Ajax, Responsive markup, JavaScript, Adobe Photoshop, Figma, jQuery, PHP, Git, MySQL, Gulp, React, Redax, REST API, next.js, express.js, MongoDB, Node.js
+                Стэк технологий: HTML, CSS, SCSS, BEM,  Ajax, Responsive markup, JavaScript, Adobe Photoshop, Figma, jQuery, PHP, Git, MySQL, Gulp, React, Redux, REST API, next.js, express.js, MongoDB, Node.js
                                                
             </p>
             <p>

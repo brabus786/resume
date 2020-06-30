@@ -11,7 +11,7 @@ const LengEN = () => {
                 Web Developer with more than 4 years of experience, including more than a year of commercial development. I worked on 2 two e-commerce projects on CMS Opencart with attendance of more than 300,000 people a month on each. Developed a service for tattoo studios and tattoo artists. There is experience in remote work.
           </p>
             <p>
-                Technology Stack: HTML, CSS, SCSS, BEM, Ajax, Responsive markup, JavaScript, Adobe Photoshop, Figma, jQuery, PHP, Git, MySQL, Gulp, React, Redax, REST API, next.js, express.js, MongoDB, Node.js
+                Technology Stack: HTML, CSS, SCSS, BEM, Ajax, Responsive markup, JavaScript, Adobe Photoshop, Figma, jQuery, PHP, Git, MySQL, Gulp, React, Redux, REST API, next.js, express.js, MongoDB, Node.js
           </p>
             <p>
                 I have the skills to develop cross-browser, valid and adaptive layout. Layout according to w3 validator. I freely use Photoshop, Figma for layout layout. OOP basics on js and php.
