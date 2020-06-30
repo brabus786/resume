@@ -99,7 +99,7 @@ const Experience = (props) => {
                     img={test20}
                     imgW={test20W}
                     href='https://board.brabus786.now.sh/'
-                    technology={['React.js', 'Redax', 'SCSS']}
+                    technology={['React.js', 'Redux', 'SCSS']}
                 />
             </div>
 
