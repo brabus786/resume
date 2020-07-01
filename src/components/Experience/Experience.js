@@ -64,7 +64,7 @@ const Experience = (props) => {
                 <BlockLink
                     img={tattz}
                     imgW={tattzW}
-                    href='http://front.tattz.ru/'
+                    href='https://5efc32f0b6cabb000864e048--infallible-raman-934495.netlify.app/'
                     technology={['Next.js', 'React.js', 'Redux', 'REST API', 'integration API', 'Node.js', 'Express', 'SCSS', 'Grid ', 'Flex', 'Responsive Layout', 'Mobile first']}
                 />
 
